@@ -28,7 +28,8 @@
     fetch('email-esquenta-black.html')
       .then(function (r) { return r.text(); })
       .then(function (html) {
-        html = html.replace(/https:\/\/bonnytrashy\.github\.io\/EMAILSNATIVABLACKB2C\//g, '');
+        html = html.replace('PREENCHER_URL_LOGO', 'images/logo-nativa.png')
+                   .replace('PREENCHER_URL_IMAGEM_PRINCIPAL', 'images/esquenta-black-cremes-multifuncionais.jpg');
         document.querySelectorAll('iframe').forEach(function (f) { f.srcdoc = html; });
       });
   </script>

@@ -13,12 +13,10 @@ E-mail de abertura do Esquenta da Black Nativa, da Nativa Ecocosméticos.
 | `images/logo-nativa.png` | Logo com fundo branco embutido (continua legível no modo escuro) |
 | `images/esquenta-black-cremes-multifuncionais.jpg` | Imagem principal (1086 x 1448, exibida a 600 px) |
 
-As imagens são servidas pelo GitHub Pages:
+Este repositório é privado, então as imagens não podem ser servidas daqui. Suba as duas imagens de `images/`
+no gerenciador de imagens da RD Station e cole as URLs geradas no HTML (veja a lista abaixo).
 
-- https://bonnytrashy.github.io/EMAILSNATIVABLACKB2C/images/logo-nativa.png
-- https://bonnytrashy.github.io/EMAILSNATIVABLACKB2C/images/esquenta-black-cremes-multifuncionais.jpg
-
-Prévia online: https://bonnytrashy.github.io/EMAILSNATIVABLACKB2C/preview.html
+Para ver a prévia localmente, rode um servidor na pasta (por exemplo `python -m http.server`) e abra `preview.html`.
 
 ## Assunto e pré-cabeçalho
 
@@ -30,11 +28,12 @@ Prévia online: https://bonnytrashy.github.io/EMAILSNATIVABLACKB2C/preview.html
 
 ## Antes de disparar, preencher
 
-Busque por `PREENCHER` no HTML e no TXT:
+Busque por `PREENCHER` no HTML:
 
-1. `PREENCHER_LINK_CANAL_WHATSAPP`: link do canal do WhatsApp (sem UTM)
-2. `PREENCHER_LINK_DESCADASTRO`: link ou variável de descadastro da RD Station
-3. `[PREENCHER: endereço da empresa]`: endereço no rodapé
+1. `PREENCHER_URL_LOGO`: URL pública de `images/logo-nativa.png`
+2. `PREENCHER_URL_IMAGEM_PRINCIPAL`: URL pública de `images/esquenta-black-cremes-multifuncionais.jpg`
+
+Descadastro e endereço ficam a cargo do rodapé automático da RD Station.
 
 ## UTMs
 
