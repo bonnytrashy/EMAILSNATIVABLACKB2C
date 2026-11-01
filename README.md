@@ -10,6 +10,7 @@ E-mail de abertura do Esquenta da Black Nativa, da Nativa Ecocosméticos.
 | `email-esquenta-black.txt` | Versão em texto puro |
 | `images/logo-nativa.png` | Logo com fundo branco embutido (continua legível no modo escuro) |
 | `images/sequiserusar.jpg` | Imagem principal do e-mail (1086 x 1448, 452 KB, exibida a 600 px) |
+| `images/verao-cachos-vitoria.jpg` | Segunda foto do e-mail, no bloco dos kits (recorte 4:3 da p1, 152 KB) |
 | `images/p1.jpg` a `images/p6.jpg`, `images/1709936094_logo_end.webp` | Arquivos originais da pasta de recursos da campanha |
 | `vercel.json` | Configuração da hospedagem na Vercel |
 
@@ -23,6 +24,7 @@ Com o projeto publicado como `emailsnativablackb2c`, as URLs ficam assim (troque
 
 - `https://emailsnativablackb2c.vercel.app/images/logo-nativa.png`
 - `https://emailsnativablackb2c.vercel.app/images/sequiserusar.jpg`
+- `https://emailsnativablackb2c.vercel.app/images/verao-cachos-vitoria.jpg`
 
 O `vercel.json` libera as imagens com cache de 7 dias e `Access-Control-Allow-Origin: *`.
 
@@ -40,8 +42,9 @@ Busque por `PREENCHER` no HTML:
 
 1. `PREENCHER_URL_LOGO`: URL da Vercel de `images/logo-nativa.png`
 2. `PREENCHER_URL_IMAGEM_PRINCIPAL`: URL da Vercel de `images/sequiserusar.jpg`
+3. `PREENCHER_URL_IMAGEM_VERAO`: URL da Vercel de `images/verao-cachos-vitoria.jpg`
 
-Use `logo-nativa.png` e `sequiserusar.jpg` no e-mail, não os outros arquivos:
+Use `logo-nativa.png`, `sequiserusar.jpg` e `verao-cachos-vitoria.jpg` no e-mail, não os outros arquivos:
 o Outlook não exibe `.webp`, e os originais `p*.jpg` têm de 3 a 4,5 MB, pesados demais para e-mail.
 
 Descadastro e endereço ficam a cargo do rodapé automático da RD Station.
@@ -49,4 +52,4 @@ Descadastro e endereço ficam a cargo do rodapé automático da RD Station.
 ## UTMs
 
 `utm_source=email&utm_medium=crm&utm_campaign=esquenta_black_2026` com `utm_content`:
-`logo`, `imagem_principal`, `botao_principal`, `link_kits`.
+`logo`, `imagem_principal`, `botao_principal`, `imagem_kits`, `link_kits`.

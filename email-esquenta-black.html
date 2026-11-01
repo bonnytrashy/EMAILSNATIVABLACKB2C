@@ -9,6 +9,7 @@
   ANTES DE DISPARAR, PREENCHER (busque por "PREENCHER"):
   1. PREENCHER_URL_LOGO              -> URL da Vercel, ex.: https://emailsnativablackb2c.vercel.app/images/logo-nativa.png
   2. PREENCHER_URL_IMAGEM_PRINCIPAL  -> URL da Vercel, ex.: https://emailsnativablackb2c.vercel.app/images/sequiserusar.jpg
+  3. PREENCHER_URL_IMAGEM_VERAO      -> URL da Vercel, ex.: https://emailsnativablackb2c.vercel.app/images/verao-cachos-vitoria.jpg
 -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,11 +29,11 @@
 </xml>
 </noscript>
 <style>
-  table, td, div, h1, p, a, span { font-family: Arial, sans-serif !important; }
+  table, td, div, h1, h2, p, a, span { font-family: Arial, sans-serif !important; }
 </style>
 <![endif]-->
 <!--[if !mso]><!-->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <!--<![endif]-->
 <style>
   :root { color-scheme: light dark; supported-color-schemes: light dark; }
@@ -47,30 +48,38 @@
   @media only screen and (max-width: 599px) {
     .container { width: 100% !important; max-width: 100% !important; }
     .px { padding-left: 24px !important; padding-right: 24px !important; }
+    .card-pad { padding: 28px 22px 26px 22px !important; }
     .h1 { font-size: 28px !important; line-height: 34px !important; }
+    .h2 { font-size: 20px !important; line-height: 28px !important; }
     .txt { font-size: 16px !important; line-height: 26px !important; }
     .foot { font-size: 14px !important; line-height: 22px !important; }
     .btn-table { width: 100% !important; }
     .btn-link { display: block !important; width: auto !important; }
-    .hero { width: 100% !important; height: auto !important; }
+    .fluid { width: 100% !important; height: auto !important; }
   }
 
   @media (prefers-color-scheme: dark) {
     .bg-body { background-color: #1B1E15 !important; }
+    .card { background-color: #2A2A1E !important; }
     .txt, .txt p, .txt td, .txt strong { color: #ECE8DF !important; }
-    .h1, .h2 { color: #B9D48F !important; }
+    .h1, .h2, .name { color: #B9D48F !important; }
+    .hot, .txt .hot { color: #F2915F !important; }
+    .kicker { color: #F2915F !important; }
+    .dot-j { background-color: #6B74B8 !important; }
     .lnk { color: #B9D48F !important; }
     .foot, .foot a { color: #B8B3A8 !important; }
     .btn-td { background-color: #3B5513 !important; }
-    .btn-link { border: 1px solid #8DB85A !important; }
-    .btn-link { color: #FFFFFF !important; background-color: #3B5513 !important; }
+    .btn-link { color: #FFFFFF !important; background-color: #3B5513 !important; border: 1px solid #8DB85A !important; }
   }
 </style>
 <style>
   /* Outlook.com / Outlook app em modo escuro */
   [data-ogsb] .bg-body { background-color: #1B1E15 !important; }
+  [data-ogsb] .card { background-color: #2A2A1E !important; }
   [data-ogsc] .txt, [data-ogsc] .txt strong { color: #ECE8DF !important; }
-  [data-ogsc] .h1, [data-ogsc] .h2, [data-ogsc] .lnk { color: #B9D48F !important; }
+  [data-ogsc] .h1, [data-ogsc] .h2, [data-ogsc] .name, [data-ogsc] .lnk { color: #B9D48F !important; }
+  [data-ogsc] .hot, [data-ogsc] .txt .hot, [data-ogsc] .kicker { color: #F2915F !important; }
+  [data-ogsb] .dot-j { background-color: #6B74B8 !important; }
   [data-ogsc] .foot, [data-ogsc] .foot a { color: #B8B3A8 !important; }
   [data-ogsc] .btn-link { color: #FFFFFF !important; }
   [data-ogsb] .btn-td, [data-ogsb] .btn-link { background-color: #3B5513 !important; }
@@ -81,7 +90,7 @@
 <!-- Pré-cabeçalho (texto de prévia na caixa de entrada) -->
 <div style="display:none; font-size:1px; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden; mso-hide:all;">
   Os Cremes Multifuncionais com 20% OFF e kits com até 30% OFF no site.
-  &#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+  &#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
 </div>
 
 <table role="presentation" class="bg-body" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#FFFFFF;">
@@ -93,9 +102,32 @@
       <![endif]-->
       <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="width:600px; max-width:600px; margin:0 auto;">
 
+        <!-- Faixa listrada de toalha de praia (topo) -->
+        <tr>
+          <td style="padding:0; font-size:0; line-height:0;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="table-layout:fixed;">
+              <tr>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="5%" height="8" bgcolor="#F6E3CB" style="background-color:#F6E3CB; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="5%" height="8" bgcolor="#F6E3CB" style="background-color:#F6E3CB; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="5%" height="8" bgcolor="#F6E3CB" style="background-color:#F6E3CB; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="5%" height="8" bgcolor="#F6E3CB" style="background-color:#F6E3CB; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="5%" height="8" bgcolor="#F6E3CB" style="background-color:#F6E3CB; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="5%" height="8" bgcolor="#F6E3CB" style="background-color:#F6E3CB; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
         <!-- 1. LOGO -->
         <tr>
-          <td align="center" style="padding:20px 24px 16px 24px;">
+          <td align="center" style="padding:18px 24px 14px 24px;">
             <a href="https://www.nativaecocosmeticos.com.br/?utm_source=email&amp;utm_medium=crm&amp;utm_campaign=esquenta_black_2026&amp;utm_content=logo" target="_blank" style="text-decoration:none;">
               <img src="PREENCHER_URL_LOGO" width="130" height="92" alt="Nativa Ecocosméticos" style="display:block; width:130px; height:auto; border:0;">
             </a>
@@ -106,56 +138,65 @@
         <tr>
           <td style="padding:0;">
             <a href="https://www.nativaecocosmeticos.com.br/?utm_source=email&amp;utm_medium=crm&amp;utm_campaign=esquenta_black_2026&amp;utm_content=imagem_principal" target="_blank" style="text-decoration:none;">
-              <img class="hero" src="PREENCHER_URL_IMAGEM_PRINCIPAL" width="600" height="800" alt="Os quatro Cremes Multifuncionais Nativa numa toalha de praia ao pôr do sol em Vitória" style="display:block; width:100%; max-width:600px; height:auto; border:0; background-color:#F3E3CC; color:#3B5513; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:24px;">
+              <img class="fluid" src="PREENCHER_URL_IMAGEM_PRINCIPAL" width="600" height="800" alt="Os quatro Cremes Multifuncionais Nativa numa toalha de praia ao pôr do sol em Vitória" style="display:block; width:100%; max-width:600px; height:auto; border:0; background-color:#F3E3CC; color:#3B5513; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:24px;">
             </a>
           </td>
         </tr>
 
         <!-- 3. TÍTULO -->
         <tr>
-          <td class="px" style="padding:44px 48px 0 48px;">
-            <h1 class="h1" style="margin:0; font-family:'Coolvetica', 'Poppins', Arial, sans-serif; font-size:32px; line-height:38px; font-weight:600; letter-spacing:1px; text-transform:uppercase; color:#3B5513; mso-line-height-rule:exactly;">O esquenta da Black Nativa começou.</h1>
+          <td class="px" align="center" style="padding:44px 48px 0 48px; text-align:center;">
+            <p class="kicker" style="margin:0 0 10px 0; font-family:'Poppins', Arial, sans-serif; font-size:22px; line-height:22px; color:#D9693B;">&#9728;&#65038;</p>
+            <h1 class="h1" style="margin:0; font-family:'Coolvetica', 'Poppins', Arial, sans-serif; font-size:34px; line-height:40px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#3B5513; mso-line-height-rule:exactly;">O esquenta da Black Nativa começou.</h1>
           </td>
         </tr>
 
         <!-- 4. ABERTURA -->
         <tr>
-          <td class="px txt" style="padding:20px 48px 0 48px; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; mso-line-height-rule:exactly;">
+          <td class="px txt" align="center" style="padding:18px 44px 0 44px; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; text-align:center; mso-line-height-rule:exactly;">
             <p style="margin:0;">O verão está chegando, e sol, mar e piscina pedem cuidado em dobro com o cabelo. Por isso a gente abriu o esquenta da Black com os favoritos da casa em condição especial no site.</p>
           </td>
         </tr>
 
-        <!-- 5. OS 4 DO VERÃO -->
+        <!-- 5. OS 4 DO VERÃO (cartão cor de areia) -->
         <tr>
-          <td class="px" style="padding:40px 48px 0 48px;">
-            <h2 class="h2" style="margin:0; font-family:'Poppins', Arial, sans-serif; font-size:20px; line-height:28px; font-weight:600; color:#3B5513; mso-line-height-rule:exactly;">Os 4 do verão, agora com 20%&nbsp;OFF</h2>
-          </td>
-        </tr>
-        <tr>
-          <td class="px" style="padding:16px 48px 0 48px;">
-            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+          <td class="px" style="padding:40px 32px 0 32px;">
+            <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FBF0E2" style="background-color:#FBF0E2; border-radius:16px;">
               <tr>
-                <td width="20" valign="top" style="padding:0 0 14px 0; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#679933;">&bull;</td>
-                <td class="txt" valign="top" style="padding:0 0 14px 0; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; mso-line-height-rule:exactly;"><strong style="color:#3B5513; font-weight:600;">Cinco Óleos:</strong> nutrição intensa pra fios secos, danificados ou em transição.</td>
-              </tr>
-              <tr>
-                <td width="20" valign="top" style="padding:0 0 14px 0; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#679933;">&bull;</td>
-                <td class="txt" valign="top" style="padding:0 0 14px 0; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; mso-line-height-rule:exactly;"><strong style="color:#3B5513; font-weight:600;">Cacau e Cupuaçu:</strong> pra cachos e crespos ressecados, opacos ou com frizz.</td>
-              </tr>
-              <tr>
-                <td width="20" valign="top" style="padding:0 0 14px 0; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#679933;">&bull;</td>
-                <td class="txt" valign="top" style="padding:0 0 14px 0; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; mso-line-height-rule:exactly;"><strong style="color:#3B5513; font-weight:600;">Bacuri e Tangerina:</strong> hidrata e nutre todos os tipos, do liso ao crespo.</td>
-              </tr>
-              <tr>
-                <td width="20" valign="top" style="padding:0; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#679933;">&bull;</td>
-                <td class="txt" valign="top" style="padding:0; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; mso-line-height-rule:exactly;"><strong style="color:#3B5513; font-weight:600;">Jabuticaba e Jupati:</strong> força e brilho pra fios frágeis ou que quebram fácil.</td>
+                <td class="card-pad" style="padding:34px 36px 30px 36px;">
+                  <h2 class="h2" style="margin:0 0 20px 0; font-family:'Poppins', Arial, sans-serif; font-size:21px; line-height:29px; font-weight:600; color:#3B5513; mso-line-height-rule:exactly;">Os 4 do verão, agora com <span class="hot" style="color:#C9562C; white-space:nowrap;">20%&nbsp;OFF</span></h2>
+
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td width="24" valign="top" style="padding:8px 0 16px 0;">
+                        <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="12" height="12" bgcolor="#EFC2B3" style="width:12px; height:12px; background-color:#EFC2B3; border-radius:6px; font-size:0; line-height:0;">&nbsp;</td></tr></table>
+                      </td>
+                      <td class="txt" valign="top" style="padding:0 0 16px 0; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; mso-line-height-rule:exactly;"><strong class="name" style="color:#3B5513; font-weight:600;">Cinco Óleos:</strong> nutrição intensa pra fios secos, danificados ou em transição.</td>
+                    </tr>
+                    <tr>
+                      <td width="24" valign="top" style="padding:8px 0 16px 0;">
+                        <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="12" height="12" bgcolor="#8B2E35" style="width:12px; height:12px; background-color:#8B2E35; border-radius:6px; font-size:0; line-height:0;">&nbsp;</td></tr></table>
+                      </td>
+                      <td class="txt" valign="top" style="padding:0 0 16px 0; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; mso-line-height-rule:exactly;"><strong class="name" style="color:#3B5513; font-weight:600;">Cacau e Cupuaçu:</strong> pra cachos e crespos ressecados, opacos ou com frizz.</td>
+                    </tr>
+                    <tr>
+                      <td width="24" valign="top" style="padding:8px 0 16px 0;">
+                        <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="12" height="12" bgcolor="#F39A2D" style="width:12px; height:12px; background-color:#F39A2D; border-radius:6px; font-size:0; line-height:0;">&nbsp;</td></tr></table>
+                      </td>
+                      <td class="txt" valign="top" style="padding:0 0 16px 0; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; mso-line-height-rule:exactly;"><strong class="name" style="color:#3B5513; font-weight:600;">Bacuri e Tangerina:</strong> hidrata e nutre todos os tipos, do liso ao crespo.</td>
+                    </tr>
+                    <tr>
+                      <td width="24" valign="top" style="padding:8px 0 0 0;">
+                        <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td class="dot-j" width="12" height="12" bgcolor="#2F3561" style="width:12px; height:12px; background-color:#2F3561; border-radius:6px; font-size:0; line-height:0;">&nbsp;</td></tr></table>
+                      </td>
+                      <td class="txt" valign="top" style="padding:0; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; mso-line-height-rule:exactly;"><strong class="name" style="color:#3B5513; font-weight:600;">Jabuticaba e Jupati:</strong> força e brilho pra fios frágeis ou que quebram fácil.</td>
+                    </tr>
+                  </table>
+
+                  <p class="txt" style="margin:22px 0 0 0; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; mso-line-height-rule:exactly;">Os quatro funcionam como condicionador, creme de pentear ou máscara. E no Pix ainda tem desconto extra.</p>
+                </td>
               </tr>
             </table>
-          </td>
-        </tr>
-        <tr>
-          <td class="px txt" style="padding:20px 48px 0 48px; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; mso-line-height-rule:exactly;">
-            <p style="margin:0;">Os quatro funcionam como condicionador, creme de pentear ou máscara. E no Pix ainda tem desconto extra.</p>
           </td>
         </tr>
 
@@ -163,7 +204,7 @@
         <tr>
           <td class="px" align="center" style="padding:36px 48px 0 48px;">
             <!--[if mso]>
-            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.nativaecocosmeticos.com.br/?utm_source=email&amp;utm_medium=crm&amp;utm_campaign=esquenta_black_2026&amp;utm_content=botao_principal" style="height:52px; v-text-anchor:middle; width:300px;" arcsize="16%" stroke="f" fillcolor="#3B5513">
+            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.nativaecocosmeticos.com.br/?utm_source=email&amp;utm_medium=crm&amp;utm_campaign=esquenta_black_2026&amp;utm_content=botao_principal" style="height:54px; v-text-anchor:middle; width:300px;" arcsize="50%" stroke="f" fillcolor="#3B5513">
               <w:anchorlock/>
               <center style="color:#FFFFFF; font-family:Arial, sans-serif; font-size:17px; font-weight:bold;">Aproveitar o esquenta</center>
             </v:roundrect>
@@ -171,8 +212,8 @@
             <!--[if !mso]><!-->
             <table role="presentation" class="btn-table" cellpadding="0" cellspacing="0" border="0" style="margin:0 auto;">
               <tr>
-                <td class="btn-td" align="center" style="border-radius:8px; background-color:#3B5513;">
-                  <a class="btn-link" href="https://www.nativaecocosmeticos.com.br/?utm_source=email&amp;utm_medium=crm&amp;utm_campaign=esquenta_black_2026&amp;utm_content=botao_principal" target="_blank" style="display:inline-block; min-width:220px; padding:15px 40px; font-family:'Poppins', Arial, sans-serif; font-size:17px; line-height:22px; font-weight:500; color:#FFFFFF; text-decoration:none; text-align:center; border-radius:8px; background-color:#3B5513; mso-line-height-rule:exactly;">Aproveitar o esquenta</a>
+                <td class="btn-td" align="center" style="border-radius:30px; background-color:#3B5513;">
+                  <a class="btn-link" href="https://www.nativaecocosmeticos.com.br/?utm_source=email&amp;utm_medium=crm&amp;utm_campaign=esquenta_black_2026&amp;utm_content=botao_principal" target="_blank" style="display:inline-block; min-width:220px; padding:16px 44px; font-family:'Poppins', Arial, sans-serif; font-size:17px; line-height:22px; font-weight:500; color:#FFFFFF; text-decoration:none; text-align:center; border-radius:30px; background-color:#3B5513; mso-line-height-rule:exactly;">Aproveitar o esquenta</a>
                 </td>
               </tr>
             </table>
@@ -180,27 +221,57 @@
           </td>
         </tr>
 
-        <!-- 7. KITS -->
+        <!-- 7. KITS: segunda foto + texto -->
         <tr>
-          <td class="px txt" align="center" style="padding:40px 48px 0 48px; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; text-align:center; mso-line-height-rule:exactly;">
-            <p style="margin:0;">Quer levar a rotina completa? Os kits do verão estão com até 30%&nbsp;OFF.</p>
-            <p style="margin:6px 0 0 0;"><a class="lnk" href="https://www.nativaecocosmeticos.com.br/?utm_source=email&amp;utm_medium=crm&amp;utm_campaign=esquenta_black_2026&amp;utm_content=link_kits" target="_blank" style="color:#3B5513; font-weight:600; text-decoration:underline;">Ver os kits</a></p>
+          <td style="padding:52px 0 0 0;">
+            <a href="https://www.nativaecocosmeticos.com.br/?utm_source=email&amp;utm_medium=crm&amp;utm_campaign=esquenta_black_2026&amp;utm_content=imagem_kits" target="_blank" style="text-decoration:none;">
+              <img class="fluid" src="PREENCHER_URL_IMAGEM_VERAO" width="600" height="450" alt="Mulher de cabelo cacheado sorrindo na praia ao pôr do sol, com o Convento da Penha ao fundo" style="display:block; width:100%; max-width:600px; height:auto; border:0; background-color:#F3E3CC; color:#3B5513; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:24px;">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="px txt" align="center" style="padding:28px 56px 0 56px; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; text-align:center; mso-line-height-rule:exactly;">
+            <p style="margin:0;">Quer levar a rotina completa? Os kits do verão estão com <strong class="hot" style="color:#C9562C; font-weight:600; white-space:nowrap;">até 30%&nbsp;OFF</strong>.</p>
+            <p style="margin:8px 0 0 0;"><a class="lnk" href="https://www.nativaecocosmeticos.com.br/?utm_source=email&amp;utm_medium=crm&amp;utm_campaign=esquenta_black_2026&amp;utm_content=link_kits" target="_blank" style="color:#3B5513; font-weight:600; text-decoration:underline;">Ver os kits</a></p>
           </td>
         </tr>
 
         <!-- 8. P.S. -->
         <tr>
-          <td class="px txt" style="padding:64px 48px 0 48px; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; mso-line-height-rule:exactly;">
-            <p style="margin:0;"><strong style="color:#3B5513; font-weight:600;">P.S.:</strong> tem um velho amigo voltando. Quem é cliente Nativa há mais tempo vai lembrar. As novidades saem primeiro no nosso canal do WhatsApp.</p>
+          <td class="px txt" style="padding:60px 48px 0 48px; font-family:'Poppins', Arial, sans-serif; font-size:16px; line-height:26px; color:#3D3A35; mso-line-height-rule:exactly;">
+            <p style="margin:0;"><strong class="name" style="color:#3B5513; font-weight:600;">P.S.:</strong> tem um velho amigo voltando. Quem é cliente Nativa há mais tempo vai lembrar. As novidades saem primeiro no nosso canal do WhatsApp.</p>
             <p style="margin:8px 0 0 0;"><a class="lnk" href="https://whatsapp.com/channel/0029Va6BviCLtOjLZZAwbs3I" target="_blank" style="color:#3B5513; font-weight:600; text-decoration:underline;">Entrar no canal &rarr;</a></p>
           </td>
         </tr>
 
         <!-- 9. RODAPÉ -->
         <tr>
-          <td class="px foot" align="center" style="padding:64px 48px 40px 48px; font-family:'Poppins', Arial, sans-serif; font-size:13px; line-height:21px; color:#6E695F; text-align:center; mso-line-height-rule:exactly;">
+          <td class="px foot" align="center" style="padding:60px 48px 36px 48px; font-family:'Poppins', Arial, sans-serif; font-size:13px; line-height:21px; color:#6E695F; text-align:center; mso-line-height-rule:exactly;">
             <p style="margin:0 0 12px 0;"><a href="https://www.instagram.com/nativa_ecocosmeticos" target="_blank" style="color:#6E695F; text-decoration:underline;">Instagram @nativa_ecocosmeticos</a></p>
             <p style="margin:0;">Você recebeu este e-mail porque é cliente ou se cadastrou no site da Nativa Ecocosméticos.</p>
+          </td>
+        </tr>
+
+        <!-- Faixa listrada de toalha de praia (base) -->
+        <tr>
+          <td style="padding:0; font-size:0; line-height:0;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="table-layout:fixed;">
+              <tr>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="5%" height="8" bgcolor="#F6E3CB" style="background-color:#F6E3CB; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="5%" height="8" bgcolor="#F6E3CB" style="background-color:#F6E3CB; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="5%" height="8" bgcolor="#F6E3CB" style="background-color:#F6E3CB; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="5%" height="8" bgcolor="#F6E3CB" style="background-color:#F6E3CB; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="5%" height="8" bgcolor="#F6E3CB" style="background-color:#F6E3CB; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="5%" height="8" bgcolor="#F6E3CB" style="background-color:#F6E3CB; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+                <td width="10%" height="8" bgcolor="#D9693B" style="background-color:#D9693B; height:8px; font-size:0; line-height:0;">&nbsp;</td>
+              </tr>
+            </table>
           </td>
         </tr>
 
