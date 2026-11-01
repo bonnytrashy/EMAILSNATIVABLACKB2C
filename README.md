@@ -9,6 +9,7 @@ E-mail de abertura do Esquenta da Black Nativa, da Nativa Ecocosméticos.
 | `email-esquenta-black.html` | HTML completo, pronto para colar no editor de HTML da RD Station |
 | `email-esquenta-black.txt` | Versão em texto puro |
 | `preview.html` | Prévia lado a lado em 600 px (desktop) e 375 px (celular) |
+| `previews/*.png` | Capturas em 600 px e 375 px, nos modos claro e escuro |
 | `images/logo-nativa.png` | Logo com fundo branco embutido (continua legível no modo escuro) |
 | `images/esquenta-black-cremes-multifuncionais.jpg` | Imagem principal (1086 x 1448, exibida a 600 px) |
 
