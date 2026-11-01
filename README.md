@@ -12,21 +12,22 @@ E-mail de abertura do Esquenta da Black Nativa, da Nativa Ecocosméticos.
 | `images/sequiserusar.jpg` | Imagem principal do e-mail (1086 x 1448, 452 KB, exibida a 600 px) |
 | `images/verao-cachos-vitoria.jpg` | Segunda foto do e-mail, no bloco dos kits (recorte 4:3 da p1, 152 KB) |
 | `images/p1.jpg` a `images/p6.jpg`, `images/1709936094_logo_end.webp` | Arquivos originais da pasta de recursos da campanha |
-| `vercel.json` | Configuração da hospedagem na Vercel |
+| `vercel.json` | Configuração opcional, caso queira hospedar as imagens na Vercel |
 
-## Hospedagem das imagens (Vercel)
+## Hospedagem das imagens
 
-O repositório é privado, mas a Vercel publica o conteúdo dele como site estático, e é de lá que o e-mail
-puxa as imagens. Para publicar: na Vercel, **Add New > Project**, importe `bonnytrashy/EMAILSNATIVABLACKB2C`
-sem framework e sem comando de build.
+O repositório é público e o e-mail puxa as imagens pelo jsDelivr, um CDN gratuito que entrega arquivos de
+repositórios públicos do GitHub. As URLs já estão no HTML:
 
-Com o projeto publicado como `emailsnativablackb2c`, as URLs ficam assim (troque o domínio se o projeto tiver outro nome):
+- `https://cdn.jsdelivr.net/gh/bonnytrashy/EMAILSNATIVABLACKB2C@main/images/logo-nativa.png`
+- `https://cdn.jsdelivr.net/gh/bonnytrashy/EMAILSNATIVABLACKB2C@main/images/sequiserusar.jpg`
+- `https://cdn.jsdelivr.net/gh/bonnytrashy/EMAILSNATIVABLACKB2C@main/images/verao-cachos-vitoria.jpg`
 
-- `https://emailsnativablackb2c.vercel.app/images/logo-nativa.png`
-- `https://emailsnativablackb2c.vercel.app/images/sequiserusar.jpg`
-- `https://emailsnativablackb2c.vercel.app/images/verao-cachos-vitoria.jpg`
+Para trocar uma imagem, envie um arquivo com **outro nome** e atualize o HTML. O jsDelivr guarda cópia em
+cache por até 7 dias, então substituir um arquivo com o mesmo nome pode continuar mostrando a versão antiga.
 
-O `vercel.json` libera as imagens com cache de 7 dias e `Access-Control-Allow-Origin: *`.
+Não renomeie, mova ou apague esses três arquivos nem deixe o repositório privado depois do disparo: os
+e-mails já enviados continuam buscando as imagens nesses endereços.
 
 ## Assunto e pré-cabeçalho
 
@@ -36,18 +37,13 @@ O `vercel.json` libera as imagens com cache de 7 dias e `Access-Control-Allow-Or
   - Os 4 queridinhos do verão estão com 20% OFF
 - **Pré-cabeçalho:** Os Cremes Multifuncionais com 20% OFF e kits com até 30% OFF no site.
 
-## Antes de disparar, preencher
+## Importar na RD Station
 
-Busque por `PREENCHER` no HTML:
+O HTML está pronto: não há nada a preencher. Importe `email-esquenta-black.html` no editor de HTML da RD Station.
+Descadastro e endereço ficam a cargo do rodapé automático da RD.
 
-1. `PREENCHER_URL_LOGO`: URL da Vercel de `images/logo-nativa.png`
-2. `PREENCHER_URL_IMAGEM_PRINCIPAL`: URL da Vercel de `images/sequiserusar.jpg`
-3. `PREENCHER_URL_IMAGEM_VERAO`: URL da Vercel de `images/verao-cachos-vitoria.jpg`
-
-Use `logo-nativa.png`, `sequiserusar.jpg` e `verao-cachos-vitoria.jpg` no e-mail, não os outros arquivos:
-o Outlook não exibe `.webp`, e os originais `p*.jpg` têm de 3 a 4,5 MB, pesados demais para e-mail.
-
-Descadastro e endereço ficam a cargo do rodapé automático da RD Station.
+O e-mail usa `logo-nativa.png`, `sequiserusar.jpg` e `verao-cachos-vitoria.jpg`. Os outros arquivos de `images/`
+ficam só como acervo: o Outlook não exibe `.webp`, e os originais `p*.jpg` têm de 3 a 4,5 MB, pesados demais para e-mail.
 
 ## UTMs
 
