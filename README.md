@@ -56,10 +56,10 @@ Arquivo: `emailb2cblack1/index.html`, publicado em `https://emailsnativablackb2c
 Imagem principal: `images/sequiserusar.jpg`. Logo: `images/logo-nativa.png`.
 
 - **Assunto (opções):**
-  1. 20% OFF na linha destaque, só até 15/11
+  1. 20% OFF nos kits da linha destaque
   2. Seus favoritos do verão com 20% OFF ☀️
   3. No Pix, mais 5%. E NatCoins em dobro!
-- **Pré-cabeçalho:** 7 destaques do verão com 20% OFF até 15/11. No Pix, mais 5%. NatCoins em dobro até 09/11.
+- **Pré-cabeçalho:** 7 kits do verão com 20% OFF. No Pix, mais 5%. E NatCoins em dobro até 09/11.
 
 Grade com os 7 kits da linha destaque (fotos `images/b2c1-kit-1.jpg` a `b2c1-kit-7.jpg`, 480 px, tiradas da loja), links com UTM `utm_content=b2c1_kit_1` a `b2c1_kit_7`.
 Sem rodapé próprio: endereço e descadastro ficam com o rodapé automático da RD Station.
