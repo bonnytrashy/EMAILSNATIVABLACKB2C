@@ -61,6 +61,7 @@ Imagem principal: `images/sequiserusar.jpg`. Logo: `images/logo-nativa.png`.
   3. No Pix, mais 5%. E NatCoins em dobro!
 - **Pré-cabeçalho:** 7 destaques do verão com 20% OFF até 15/11. No Pix, mais 5%. NatCoins em dobro até 09/11.
 
-Campos para substituir antes do disparo: `[PRODUTO_1]` a `[PRODUTO_7]`, `[URL_FOTO_PRODUTO_1]` a `[URL_FOTO_PRODUTO_7]`,
-`[LINK_PRODUTO_1]` a `[LINK_PRODUTO_7]`, `[LINK_LINHA_DESTAQUE]` (botão e imagem principal), `[ENDEREÇO]` e `[LINK_DESCADASTRO]`.
-Se a RD Station já incluir endereço e descadastro no rodapé automático, apague esses dois parágrafos do rodapé para não duplicar.
+Grade com os 7 kits da linha destaque (fotos `images/b2c1-kit-1.jpg` a `b2c1-kit-7.jpg`, 480 px, tiradas da loja), links com UTM `utm_content=b2c1_kit_1` a `b2c1_kit_7`.
+Sem rodapé próprio: endereço e descadastro ficam com o rodapé automático da RD Station.
+
+Campo para substituir antes do disparo: `[LINK_LINHA_DESTAQUE]` (botão e imagem principal).
