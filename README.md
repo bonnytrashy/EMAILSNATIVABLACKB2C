@@ -49,3 +49,18 @@ ficam só como acervo: o Outlook não exibe `.webp`, e os originais `p*.jpg` tê
 
 `utm_source=email&utm_medium=crm&utm_campaign=esquenta_black_2026` com `utm_content`:
 `logo`, `imagem_principal`, `botao_principal`, `imagem_kits`, `link_kits`.
+
+## E-mail B2C 1: linha destaque com 20% OFF (`/emailb2cblack1`)
+
+Arquivo: `emailb2cblack1/index.html`, publicado em `https://emailsnativablackb2c.vercel.app/emailb2cblack1`.
+Imagem principal: `images/sequiserusar.jpg`. Logo: `images/logo-nativa.png`.
+
+- **Assunto (opções):**
+  1. 20% OFF na linha destaque, só até 15/11
+  2. Seus favoritos do verão com 20% OFF ☀️
+  3. No Pix, mais 5%. E NatCoins em dobro!
+- **Pré-cabeçalho:** 7 destaques do verão com 20% OFF até 15/11. No Pix, mais 5%. NatCoins em dobro até 09/11.
+
+Campos para substituir antes do disparo: `[PRODUTO_1]` a `[PRODUTO_7]`, `[URL_FOTO_PRODUTO_1]` a `[URL_FOTO_PRODUTO_7]`,
+`[LINK_PRODUTO_1]` a `[LINK_PRODUTO_7]`, `[LINK_LINHA_DESTAQUE]` (botão e imagem principal), `[ENDEREÇO]` e `[LINK_DESCADASTRO]`.
+Se a RD Station já incluir endereço e descadastro no rodapé automático, apague esses dois parágrafos do rodapé para não duplicar.
