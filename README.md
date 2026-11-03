@@ -64,4 +64,4 @@ Imagem principal: `images/sequiserusar.jpg`. Logo: `images/logo-nativa.png`.
 Grade com os 7 kits da linha destaque (fotos `images/b2c1-kit-1.jpg` a `b2c1-kit-7.jpg`, 480 px, tiradas da loja), links com UTM `utm_content=b2c1_kit_1` a `b2c1_kit_7`.
 Sem rodapé próprio: endereço e descadastro ficam com o rodapé automático da RD Station.
 
-Campo para substituir antes do disparo: `[LINK_LINHA_DESTAQUE]` (botão e imagem principal).
+Botão e imagem principal levam para a home do site (`utm_content=b2c1_botao_principal` e `b2c1_imagem_principal`). O HTML está pronto para importar, sem campos a preencher.
